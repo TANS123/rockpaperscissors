@@ -9,3 +9,11 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("#shoot").click(function(){
+    var rps = $("#input").val();
+    if (rps === "rock"){
+        $("#userChoice").text(rps);
+        $("#computerChoice").text("scissors");
+        // } else if (rps === scissors)
+    }
+});
